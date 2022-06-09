@@ -6,12 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio</title>
+    <style>
+        h1 {
+            font-size: 65px;
+            background-color: orange;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        p {
+            font-weight: 600;
+            line-height: 2rem;
+            text-align: center;
+
+        }
+
+        body {
+            font-size: 16px;
+        }
+
+        ul {
+            background-color: aquamarine;
+        }
+
+        .fundo {
+            background-color: antiquewhite;
+        }
+    </style>
 </head>
 
 <body>
     <h1>André Lyo Sugai</h1>
     <br>
-    <ul>Índice
+    <ul class="fundo">Índice
         <li><a href="#foto">foto</a></li>
         <li><a href="#descricao">descrição</a></li>
         <li><a href="#lista">lista</a></li>
@@ -22,7 +50,8 @@
     <br>
     <img id="foto" src="imagem/foto-perfil.jpg" alt="Foto de Perfil de André Sugai usando óculos">
     <br>
-    <p id="descricao">Olá, eu sou o André. Nasci e cresci no centro de São Paulo. Sou formado em Publicidade e
+    <p id="descricao" class="fundo">Olá, eu sou o André. Nasci e cresci no centro de São Paulo. Sou formado em
+        Publicidade e
         Propaganda pelo
         Mackenzie,
         ganhei o prêmio iBest em 2008 com meu site, o Tutoriais Photoshop e hoje sou estudante de desenvolvimento web na
